@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Credit Service</string>
+
+    <string name="todo">TODO</string>
+    <string name="current_credit">القيمة الحالية للدين</string>
+    <string name="last_update">آخر دفع قام به الزبون</string>
+    <string name="client_state">حالة الزبون</string>
+    <string name="fullName">الاسم و اللقب</string>
+    <string name="nigga">Nigga</string>
+    <string name="descr">apple_macbook_air_core_i5_5th_gen_8_gb_128_gb_ssd_mac_os_sierra</string>
+    <string name="dsx">_13_3_inch_256_gb</string>
+    <string name="_4_7">4.7</string>
+    <string name="inr_56990">INR 56990</string>
+    <string name="fullnameClient">ddddddddddddddd</string>
+    <string name="totaldebt">مجموع الديون :</string>
+    <string name="debt">55 دج</string>
+    <string name="addNewD">اضافة زبون جديد</string>
+    <string name="fname">لقب الزبون</string>
+    <string name="fnameEditTxt">ادخل اسم الزبون هنا ..</string>
+    <string name="lname">اسم الزبون</string>
+    <string name="currentDebt">قيمة الدين</string>
+    <string name="addBtn">تأكيد</string>
+    <string name="lnameD">ادخل لقب الزبون هنا ..</string>
+    <string name="currendDedit">ادخل القيمة الابتدائية للدين..</string>
+    <string name="debtorimage">DebtorImage</string>
+    <string name="addNewDebt">اضافة دين جديد</string>
+    <string name="productName">اسم المنتوج</string>
+    <string name="productPrice">قيمة الدين :</string>
+    <string name="addNewDb">إضافة دين جديد</string>
+    <string name="productNameE">ادخل اسم المنتوج هنا</string>
+    <string name="productDebt">قيمة الدين</string>
+    <string name="upload">ارفع صورة المنتوج</string>
+    <string name="update">تحديث</string>
+    <string name="deleteDebt">حذف</string>
+    <string name="store">اسم المحل</string>
+    <string name="FCM_PREF">com.example.creditservice.fcm_pref</string>
+    <string name="FCM_TOKEN">com.example.creditservice.fcm_token</string>
+    <string name="subsription">تبقى لك :</string>
+    <string name="days">أشهر</string>
+
+    <string name="notDebted">بدون ديون:</string>
+    <string name="Debted">بديون:</string>
+
+
+</resources>

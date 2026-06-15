@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="600px"
+            android:layout_height="380px"
+            android:layout_gravity="center"
+            android:layout_marginTop="145dp"
+            android:src="@drawable/v5" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="555px"
+            android:layout_height="100px"
+            android:layout_gravity="center"
+            android:layout_marginTop="-80px"
+            android:inputType="text"
+            android:background="@drawable/text_area_style"
+            android:fontFamily="@font/baloo"
+            android:hint="اسم المستخدم ..."
+            android:paddingEnd="28dp"
+            android:paddingStart="28dp"
+            android:textSize="35px"
+
+
+            />
+
+        <TextView
+            android:id="@+id/mac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="0sp"></TextView>
+        <TextView
+            android:id="@+id/store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="335px"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:background="@drawable/text_area_full"
+            android:fontFamily="@font/flat"
+            android:text="تسجيل الدخول"
+            android:padding="10dp"
+            android:textColor="@color/pinkGlamour"
+            android:textSize="45px"
+android:enabled="false"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

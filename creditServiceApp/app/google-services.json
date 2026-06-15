@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "29177304550",
+    "firebase_url": "https://creditservice.firebaseio.com",
+    "project_id": "creditservice",
+    "storage_bucket": "creditservice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29177304550:android:52200ba8b025e6121b7227",
+        "android_client_info": {
+          "package_name": "com.example.creditservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29177304550-bncgjecq5qqm9t1g4jodtl9s1jc8tasv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4HqNbomtX7xCe6ERM1Bw4Ivbio4LHdp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29177304550-bncgjecq5qqm9t1g4jodtl9s1jc8tasv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

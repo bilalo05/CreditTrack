@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:background="@drawable/card_area_style"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:id="@+id/myRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imageViewP"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/user"
+                android:contentDescription="@string/todo" />
+
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/imageViewP"
+                android:text="@string/productName"
+                android:fontFamily="@font/flat"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/debtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/productName"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/flat"
+                android:layout_toEndOf="@id/imageViewP"
+                android:text="@string/last_update"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/debtStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/debtDate"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/imageViewP"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/flat"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/client_state"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/debtPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/debtStatus"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/imageViewP"
+                android:text="@string/productPrice"
+                android:textSize="16sp"
+                android:fontFamily="@font/flat"
+                android:textColor="@color/picoVoid"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/showUpdate"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/custom_button"
+                android:layout_alignParentBottom="true"
+                android:padding="3dp"
+                android:drawableTop="@drawable/ic_update_black_24dp"
+                android:fontFamily="@font/cairo_bold"/>
+            <Button
+                android:id="@+id/deleteDebt"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/custom_button"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="22dp"
+                android:padding="3dp"
+                android:drawableTop="@drawable/ic_delete_black_24dp"
+                android:fontFamily="@font/cairo_bold"/>
+
+            <LinearLayout
+                android:id="@+id/updatePanel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/debtPrice"
+                android:layout_toStartOf="@+id/showUpdate"
+                android:visibility="invisible"
+                >
+                <Button
+                    android:id="@+id/updateDebt"
+                    android:fontFamily="@font/cairo_bold"
+                    android:layout_width="wrap_content"
+                    android:background="@color/aulo"
+                    android:layout_height="30dp"
+                    android:text="@string/addBtn"/>
+            <EditText
+                android:id="@+id/debtSubs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/debt"
+                android:inputType="number"
+                android:layout_marginHorizontal="15dp"
+                android:importantForAutofill="no" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+

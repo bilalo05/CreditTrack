@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+
+    </style>
+
+    <style name="ToastSuccess">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#192a56</item>
+        <item name="stFont">@font/cairo_bold</item>
+        <item name="stTextSize">18sp</item>
+        <item name="stColorBackground">#2ed573</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stStrokeColor">#dff9fb</item>
+        <item name="stIconStart">@drawable/ic_check_black_24dp</item>
+      <!--  <item name="stIconEnd">@drawable/ic</item> -->
+        <item name="stLength">LONG</item> <!--LONG or SHORT-->
+        <item name="stGravity">center</item> <!--top or center -->
+        <item name="stRadius">15dp</item>
+
+    </style>
+    <style name="ToastFailed">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stFont">@font/cairo_bold</item>
+        <item name="stTextSize">18sp</item>
+        <item name="stColorBackground">@color/pinkGlamour</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stStrokeColor">#dff9fb</item>
+        <item name="stIconStart">@drawable/ic_error_black_24dp</item>
+        <!--  <item name="stIconEnd">@drawable/ic</item> -->
+        <item name="stLength">LONG</item> <!--LONG or SHORT-->
+        <item name="stGravity">center</item> <!--top or center -->
+        <item name="stRadius">15dp</item>
+
+    </style>
+    <style name="exit">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+        <item name="stFont">@font/cairo_bold</item>
+        <item name="stTextSize">18sp</item>
+        <item name="stColorBackground">@color/picoVoid</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">2dp</item>
+        <item name="stStrokeColor">#dff9fb</item>
+        <!--  <item name="stIconEnd">@drawable/ic</item> -->
+        <item name="stLength">SHORT</item> <!--LONG or SHORT-->
+        <item name="stGravity">center</item> <!--top or center -->
+        <item name="stRadius">8dp</item>
+
+    </style>
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+</resources>

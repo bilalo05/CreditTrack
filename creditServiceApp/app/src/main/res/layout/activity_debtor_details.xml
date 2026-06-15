@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".DebtorDetails">
+
+
+    <LinearLayout
+        android:id="@+id/myLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/buttonstyle" >
+
+        <Button
+
+            android:id="@+id/buttonReturn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:layout_margin="8dp"
+            android:layout_gravity="end"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/idPic"
+            android:src="@drawable/user"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/debtorimage" />
+
+        <TextView
+            android:id="@+id/textViewFullName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fullName"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:fontFamily="@font/cairo_bold"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:id="@+id/totalDebt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="5dp"
+            android:layout_marginVertical="10dp"
+             android:layout_gravity="center_horizontal"
+
+            >
+            <TextView
+                android:id="@+id/example"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/totaldebt"
+                android:textSize="18sp"
+                android:textColor="@color/coastalBreese"
+                android:fontFamily="@font/flat"
+                android:padding="9dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/total2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/debt"
+                android:textSize="22sp"
+                android:layout_marginHorizontal="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/cairo_bold"
+                android:textColor="@color/carmin"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/addNewDebt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/addNewDebt"
+            android:textColor="@color/white"
+            android:fontFamily="@font/cairo_bold"
+            android:padding="10dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/custom_button"/>
+
+    </LinearLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/myLayout">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleViewDebts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

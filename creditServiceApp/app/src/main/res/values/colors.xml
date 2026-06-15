@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="pinkGlamour">#ff7979</color>
+    <color name="protossPylon">#00a8ff</color>
+    <color name="picoVoid">#192a56</color>
+    <color name="white">#ffffff</color>
+    <color name="coastalBreese">#dff9fb</color>
+    <color name="melon">#f8c291</color>
+    <color name="livid">#6a89cc</color>
+    <color name="anti_white">#f1f2f6</color>
+    <color name="carmin">#eb4d4b</color>
+    <color name="aulo">#2ed573</color>
+
+    <color name="statis1">#8941AF</color>
+    <color name="statis2">#5178C3</color>
+    <color name="statis3">#56A9B7</color>
+
+</resources>
