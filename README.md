@@ -20,6 +20,9 @@ Android (Java)
 ### Web
 Laravel
 Vue.js
+### Database
+MySQL
+
 ## screenshots 
 <img width="1696" height="1033" alt="final4068346" src="https://github.com/user-attachments/assets/6241af68-7bcf-47af-98ae-7ca48e834aeb" />
 <img width="1280" height="640" alt="mobile-devices-2017978_1280" src="https://github.com/user-attachments/assets/a61456e7-c16d-4391-8b1a-39c72a04b25c" />
@@ -30,6 +33,4 @@ Vue.js
 <img width="720" height="1280" alt="Screenshot_20200930-133643" src="https://github.com/user-attachments/assets/19f7d55f-398b-4927-a440-e03b71996443" />
 <img width="720" height="1280" alt="Screenshot_20200926-130939" src="https://github.com/user-attachments/assets/c7f682a5-0c38-496d-b386-5b772a074d41" />
 
-### Database
-MySQL
 ##
